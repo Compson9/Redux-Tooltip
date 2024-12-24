@@ -16,6 +16,7 @@ export default function Counter() {
         dispatch(decrement())
     }
 
+    
     return (
         <div className="max-w-3xl flex flex-col justify-center items-center mx-auto ">
             <h2 className="scroll-m-20 text-4xl text-white font-semibold tracking-tight first:mt-0">
