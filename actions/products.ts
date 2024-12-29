@@ -1,7 +1,8 @@
 "use server"
 
+import { IProduct } from '@/types/types';
 import axios from 'axios';
-import { IProduct } from '../types';
+
  
 export async function getAllProducts(){
     try {

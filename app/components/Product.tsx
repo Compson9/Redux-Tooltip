@@ -5,10 +5,8 @@ import { type IProduct } from "@/types/types";
 
 export default function Product({product}: {product: IProduct}){
     return ( 
-        
         <div className="">
             <Image 
-            
              src={product.images[0] ?? "/swimwear.jpg"}
              width={100} height={100} alt="Swimwear" />
             <h3 className="font-semibold">{product.title} </h3>
